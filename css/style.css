@@ -64,8 +64,9 @@ html::-webkit-scrollbar-thumb {
 }
 
 .header .logo img {
-  height: 10rem;
-  border-radius: 7px;
+  height: 20vh;
+  width: 25vw;
+  object-fit: cover;
 }
 
 .header .navbar a {
