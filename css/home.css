@@ -1,0 +1,44 @@
+/* Iníco do Home */
+.home {
+    min-height: 180vh;
+    display: flex;
+    padding: 4rem;
+    align-items: center;
+    background: url(../assets/1920.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;  
+  }
+  
+  .home .content {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding-top: 60px;
+    
+  }
+  
+  .home .content h3 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--green-logo);
+    margin-bottom: 2rem;
+      
+  }
+  
+  .home .content p {
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 2rem;
+    color: #eee;
+    font-weight: 700;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0, 25);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+  }
+  
+  
+  /* fim do home */
+  
