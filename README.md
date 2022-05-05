@@ -6,7 +6,7 @@ Este desafio consiste em criar uma landing page, de um site de moradias universi
 
 👇
  
-[Desafio-labenu](https://desafio-labenu.netlify.app/)
+[Desafio-labenu](https://desafio-labenu-emerson.netlify.app/)
 
 **Desafios do projeto**<br>
 *Usar o flexbox para alinhar os elementos*
