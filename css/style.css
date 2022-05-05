@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import "./header.css";
 @import "./home.css";
-@import "./about.css";
-@import "./box.css";
-@import "./contact.css";
+@import "./sobre.css";
+@import "./cards.css";
+@import "./contato.css";
+@import "./footer.css";
+@import "./media.css";

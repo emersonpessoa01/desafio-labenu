@@ -1,27 +1,24 @@
-/* Iníco do Home */
+/* INICIO */
 .home {
-    min-height: 180vh;
+    padding-top: 380px;
+    min-height: 100vh;
     display: flex;
-    padding: 4rem;
     align-items: center;
-    background: url(../assets/1920.jpg) no-repeat;
+    background: url(../assets/baner.jpg) no-repeat;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
+    margin: 0 0 20px;
   }
   
   .home .content {
     max-width: 60rem;
-    margin: 0 auto;
-    padding-top: 60px;
-    
   }
   
   .home .content h3 {
     font-size: 6rem;
     text-transform: uppercase;
-    color: var(--green-logo);
-    margin-bottom: 2rem;
-      
+    color: #fff;
+    text-shadow: 1px 1px 2px #000;
   }
   
   .home .content p {
@@ -37,8 +34,8 @@
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 10px;
+    text-shadow: 1px 1px 2px #000;
   }
   
-  
-  /* fim do home */
+  /* INICIO SOBRE */
   

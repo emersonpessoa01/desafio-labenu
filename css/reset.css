@@ -1,33 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap");
-
-body {
-  /* background: #001c40; */
-  /*background: #dadef0;*/
-  background: #fefefe;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto:wght@100;300;400;500;700&display=swap");
 
 :root {
-  --blue: #3266a8;
-  --black: #13131a;
-  --blue-clear: #547ec7;
-  --white: #ffffff;
-  --green-logo: #5ebab8;
   --main-color: #d3ad7f;
+  --hamburger: #6bd8d1;
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  --blue-dark: #162235;
+  --box-shadow: 0 0 2rem #fff, 0 0 2rem #6bd8d1;
+
+  --blue: #3266a8;
+  --blue-clear: #547ec7;
+  --white: #fff;
+  --green-logo: #5ebab8;
   --shadow-blur: 2px 2px 10px #d3ad7f, -2px -2px 10px #fff;
   --header: #132235;
   --background: #fefefe;
-  --border:1px solid #5ebab8;
-  
+  --black: #13131a;
+  --bg: #010103;
+  --background-facebook: #dadef0;
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   outline: none;
   border: none;
   text-decoration: none;
+  /* text-transform: capitalize; */
   transition: 0.2s linear;
 }
 
@@ -49,4 +51,43 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #fff;
   border-radius: 5rem;
+}
+
+body {
+  background: var(--white);
+}
+
+section {
+  padding: 2rem 7%;
+}
+
+.heading {
+  text-align: center;
+  color: var(--blue-dark);
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+}
+
+.heading span {
+  color: var(--hamburger);
+  text-transform: uppercase;
+}
+/* COR DE TODOS OS LINKS */
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.9rem 3rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--hamburger);
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 2px solid #5ebab8;
+  color: #5ebab8;
+  transition: 0.1s all ease;
 }

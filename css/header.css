@@ -1,139 +1,50 @@
-/* Iníco do header */
 .header {
-    background: var(--header);
+    background: var(--blue-dark);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 7%;
-    /* border-bottom: 2px solid #dadef0; */
+    border-bottom: var(--border);
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
+    box-shadow: 2px 2px 10px #fff, -2px -2px 10px #dadef0;
   }
   
   .header .logo img {
-    height: 20vh;
     width: 25vw;
+    height: 20vh;
     object-fit: cover;
   }
   
   .header .navbar a {
     margin: 0 1rem;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #fff;
   }
   
   .header .navbar a:hover {
-    color: var(--green-logo);
+    color: var(--hamburger);
+    border-bottom: 0.1rem solid var(--hamburger);
     padding-bottom: 0.5rem;
-    text-decoration: underline;
   }
   
   .header .icons div {
     color: #fff;
     cursor: pointer;
     font-size: 2.5rem;
+    margin-left: 2rem;
   }
   
   .header .icons div:hover {
-    color: var(--green-logo);
-  }
-  
-  .btn {
-    margin-top: 1rem;
-    display: inline-block;
-    padding: 0.9rem 3rem;
-    color: #fff;
-    font-size: 1.7rem;
-    background: var(--green-logo);
-    cursor: pointer;
-    border-radius: 7px;
-  }
-  
-  .btn:hover{
-    background: transparent;
-    border:2px solid var(--green-logo);
-    color: var(--green-logo);
-    transition: .1s all ease;
+    color: var(--hamburger);
   }
   
   #menu-btn {
     display: none;
   }
-  /* fim do header */
-
-  /* @media queries */
-@media (max-width: 1200px) {
-    section {
-      padding: 4rem;
-    }
-    .home .content {
-      background-position: center;
-      justify-content: center;
-    }
-  }
   
-  @media (max-width: 991px) {
-    html {
-      font-size: 55%;
-    }
-    .header {
-      padding: 1.5rem 2rem;
-    }
-    section {
-      padding: 2rem;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    #menu-btn {
-      display: inline-block;
-    }
-  
-    #menu-btn.fa-times {
-      transform: rotate(180deg);
-    }
-  
-    .header .navbar {
-      position: absolute;
-      top: 100%;
-      right: -100%;
-      right: -100%;
-      background: #fff;
-      width: 30rem;
-      height: calc(100vh - 9.5rem);
-    }
-  
-    header .navbar.active {
-      right: 0;
-      transition: all 0.8s ease;
-    }
-  
-    .header .navbar a {
-      color: var(--black);
-      display: block;
-      margin: 1.5rem;
-      padding: 0.5rem;
-      font-size: 2rem;
-    }
-    .home {
-      background-position: left;
-      justify-content: center;
-    }
-  
-    .home .content h3 {
-      font-size: 4.5rem;
-    }
-    .home .content p {
-      font-size: 1.5rem;
-    }
-  }
-  
-  @media (max-width: 450px) {
-    html {
-      font-size: 50%;
-    }
-  }
+  /* FIM */
   

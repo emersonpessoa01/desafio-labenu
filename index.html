@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,8 +10,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
   </head>
-  <link rel="icon" href="assets/favicon2.ico" />
   <body>
     <!-- Seção header -->
     <header class="header">
@@ -19,14 +19,19 @@
         <img src="assets/logo.png" alt="" />
       </a>
       <nav class="navbar">
-        <a href="">Home</a>
-        <a href="">Quem Somos</a>
-        <a href="">Fale Conosco</a>
+        <a href="#home">Home</a>
+        <a href="#about">Sobre nós </a>
+        <a href="#blogs">Produtos</a>
+        <a href="#contact">Fale conosco</a>
       </nav>
       <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
       </div>
     </header>
+    <!-- Final do header -->
+
+    <!-- home section starts  -->
+
     <section class="home" id="home">
       <div class="content">
         <h3>Experiência em Moradia Universitária.</h3>
@@ -38,8 +43,12 @@
         <a href="#" class="btn">Clique aqui</a>
       </div>
     </section>
+
+    <!-- Fim do Home -->
+    <!-- Início do About -->
+
     <section class="about" id="about">
-      <h1 class="heading">sobre <span>nós</span></h1>
+      <h1 class="heading">sobre <span>nós </span></h1>
       <div class="row">
         <div class="image">
           <img src="assets/sobre920.jpg" alt="imagem sobre nós" />
@@ -64,15 +73,16 @@
         </div>
       </div>
     </section>
-    <!-- about end -->
-    <!-- blogs starts -->
+    <!-- Fim do sobre -->
+
+    <!-- Início do blog -->
     <section class="blogs" id="blogs">
-      <h1 class="heading">nossos <span>blogs</span></h1>
+      <h1 class="heading">nossos <span>Produtos</span></h1>
 
       <div class="box-container">
         <div class="box">
           <div class="image">
-            <img src="assets/sala3.jpg" alt="" />
+            <img src="assets/card9 (1).jpg" alt="" />
           </div>
           <div class="content">
             <a href="#" class="title">tasty and refreshing coffee</a>
@@ -87,7 +97,7 @@
 
         <div class="box">
           <div class="image">
-            <img src="assets/sala3.jpg" alt="" />
+            <img src="assets/card2.png" alt="" />
           </div>
           <div class="content">
             <a href="#" class="title">tasty and refreshing coffee</a>
@@ -102,7 +112,52 @@
 
         <div class="box">
           <div class="image">
-            <img src="assets/sala3.jpg" alt="" />
+            <img src="assets/card3.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st may, 2021</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              dicta.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="assets/card4.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st may, 2021</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              dicta.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="assets/card5.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">tasty and refreshing coffee</a>
+            <span>by admin / 21st may, 2021</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non,
+              dicta.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="assets/card6.png" alt="" />
           </div>
           <div class="content">
             <a href="#" class="title">tasty and refreshing coffee</a>
@@ -116,36 +171,59 @@
         </div>
       </div>
     </section>
-    <!-- blogs end -->
-    <!--contact starts  -->
+
+    <!-- Fim do blog-->
+
+    <!-- contact section starts  -->
+
     <section class="contact" id="contact">
+      <h1 class="heading"><span>Entre em</span> contato</h1>
 
-      <h1 class="heading"> <span>localize-</span>nos</h1>
-  
       <div class="row">
-  
-          <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1AktUwthktoZYCl-GWOoA7c3SE1k&hl=pt-BR&ehbc=2E312F" width="640" height="480"></iframe>
-  
-          <form action="">
-              <h3>entrar em contato</h3>
-              <div class="inputBox">
-                  <span class="fas fa-user"></span>
-                  <input type="text" placeholder="name">
-              </div>
-              <div class="inputBox">
-                  <span class="fas fa-envelope"></span>
-                  <input type="email" placeholder="email">
-              </div>
-              <div class="inputBox">
-                  <span class="fas fa-phone"></span>
-                  <input type="number" placeholder="number">
-              </div>
-              <input type="submit" value="contate agora" class="btn">
-          </form>
-  
-      </div>
-    <!--contact end  -->
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252837.33987376007!2d-35.07793734873929!3d-8.041809848983947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab196f88c446e5%3A0x3c9ef52922447fd4!2sRecife%20-%20PE!5e0!3m2!1spt-BR!2sbr!4v1651611456354!5m2!1spt-BR!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
 
-    <script src="./js/script.js"></script>
+        <form action="">
+          <h3>contato</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" required />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" required />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="number" required />
+          </div>
+          <div class="inputBox">
+            <span></span>
+            <textarea
+              id="mensagem"
+              cols="70"
+              rows="10"
+              placeholder="Mensagem"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" value="enviar" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <!-- footer section ends -->
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
   </body>
 </html>
