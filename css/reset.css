@@ -49,7 +49,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #fff;
+  background: var(--green-logo);
   border-radius: 5rem;
 }
 
