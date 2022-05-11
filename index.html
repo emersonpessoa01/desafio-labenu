@@ -10,6 +10,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -188,31 +192,27 @@
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
 
-        <form action="" autocomplete="off">
+        <form action="">
           <h3>contato</h3>
-          <div class="inputBox">
-            <span class="fas fa-user"></span>
-            <input type="text" placeholder="name" required />
-          </div>
-          <div class="inputBox">
+          <div class="inputBox" id="emailInput">
             <span class="fas fa-envelope"></span>
-            <input type="email" placeholder="email" required />
+            <input type="text" id="email" placeholder="email" />
           </div>
-          <div class="inputBox">
-            <span class="fas fa-phone"></span>
-            <input type="number" placeholder="number" required />
-          </div>
-          <div class="inputBox">
-            <span></span>
+          <small id="spanEmail">Erro no envio: Endereço de email inválido.</small>
+
+          <div class="inputBox" id="mensagemInput">
             <textarea
               id="mensagem"
               cols="70"
               rows="10"
               placeholder="Mensagem"
-              required
             ></textarea>
           </div>
-          <input type="submit" value="enviar" class="btn" />
+          
+            <small id="spanMensagem">Erro no envio: Insira uma mensagem.</small>
+            <p id="textoSucesso"></p>
+            <button id="botao" class="btn">Enviar Mensagem</button>
+         
         </form>
       </div>
     </section>

@@ -1,0 +1,52 @@
+#spanEmail,
+#spanMensagem {
+  display: none;
+}
+#emailInput small,
+#mensagemInput small {
+  display: none;
+  font: 600 1rem "Roboto", sans-serif;
+  color: rgb(218, 28, 28);
+  margin-top: 8px;
+}
+
+#mensagemInput {
+  grid-column: 1;
+}
+
+#textoSucesso {
+  font: 600 1.5rem "Roboto", sans-serif;
+  color: rgb(64, 177, 41);
+  top: 70px;
+  position: relative;
+}
+
+/* .bordaErro {
+  border: 2px solid rgb(206, 42, 42) !important;
+} */
+
+.erro {
+  display: block !important;
+}
+
+#spanMensagem {
+  text-align: left;
+  color: #fff;
+  font-size: 1rem;
+}
+#spanEmail {
+  text-align: left;
+  color: #fff;
+  font-size: 1rem;
+
+
+}
+
+#spanSucesso {
+  display: inline-block;
+  position: absolute;
+}
+form #botao{
+  position:relative;
+  top:5px;
+}
