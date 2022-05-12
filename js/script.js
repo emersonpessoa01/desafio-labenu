@@ -26,7 +26,7 @@ botao.addEventListener("click", (event) => {
 
   //verifica se os campos estao de acordo com a validacao
   if (userEmail.value === "") {
-    spanEmail.classList.add("erro");
+    classLisspanEmail.t.add("erro");
     userEmail.classList.add("bordaErro");
     textoSucesso.innerText = "";
   } else if (!regTeste.test(userEmail.value)) {
