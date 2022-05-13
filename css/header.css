@@ -14,9 +14,10 @@
 }
 
 .header .logo img {
-  width: 25vw;
+  /* width: 50vw;
   height: 15vh;
-  object-fit: cover;
+  object-fit: cover; */
+    height: 7rem;
 }
 
 .header .navbar a {

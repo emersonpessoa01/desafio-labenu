@@ -61,11 +61,16 @@
   }
   .header {
     padding: 1rem 6%;
+    display:flex;
+    flex-wrap: wrap;
   }
   .header .logo img {
-    width: 40vw;
-    height: 5vh;
+    /* width: 55vw;
+    height: 10vh;
     object-fit: cover;
+    position:relative;
+    left: 3rem; */
+    height: 7rem;
   }
   .header .icons div {
     font-size: 2.5rem;
