@@ -14,6 +14,8 @@ botao.addEventListener("click", (event) => {
   //define as variaveis dos inputs
   const userEmail = document.querySelector("#email");
   const mensagem = document.querySelector("#mensagem");
+  
+
   const [user] = userEmail.value.split("@");
 
   //define as variaveis dos "spans" usados para mensagem de erro e sucesso
@@ -26,19 +28,19 @@ botao.addEventListener("click", (event) => {
 
   //verifica se os campos estao de acordo com a validacao
   if (userEmail.value === "") {
-    classLisspanEmail.t.add("erro");
+    spanEmail.classList.add("erro");
     userEmail.classList.add("bordaErro");
-    textoSucesso.innerText = "";
+    textoSucesso.innerContent = "";
   } else if (!regTeste.test(userEmail.value)) {
     spanEmail.classList.add("erro");
     userEmail.classList.add("bordaErro");
-    textoSucesso.innerText = "";
+    textoSucesso.innerContent = "";
   } else if (mensagem.value === "") {
     spanMensagem.classList.add("erro");
     mensagem.classList.add("bordaErro");
     spanEmail.classList.remove("erro");
     userEmail.classList.remove("bordaErro");
-    textoSucesso.innerText = "";
+    textoSucesso.innerContentt = "";
   } else {
     spanMensagem.classList.remove("erro");
     mensagem.classList.remove("bordaErro");
@@ -47,3 +49,4 @@ botao.addEventListener("click", (event) => {
     textoSucesso.innerText = `Obrigado pelo contato, ${user}!`;
   }
 });
+
