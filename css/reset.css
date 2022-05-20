@@ -10,6 +10,7 @@
   --box-shadow: 0 0 2rem #fff, 0 0 2rem #6bd8d1;
 
   --blue: #3266a8;
+  --blue2:#0067b8;
   --blue-clear: #547ec7;
   --white: #fff;
   --green-logo: #5ebab8;
@@ -49,7 +50,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--green-logo);
+  background: var(--blue);
   border-radius: 5rem;
 }
 
@@ -70,7 +71,7 @@ section {
 }
 
 .heading span {
-  color: var(--hamburger);
+  color: var(--blue2);;
   text-transform: uppercase;
 }
 /* COR DE TODOS OS LINKS */
@@ -80,14 +81,21 @@ section {
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
   color: #fff;
-  background: var(--hamburger);
+  background-color: black;
   cursor: pointer;
   border-radius: 7px;
+  transition: box-shadow 1s ease;
+}
+.btn.blue{
+  background-color: transparent;
+  color:var(--blue2);
+  border: 2px solid var(--blue2);
 }
 
 .btn:hover {
   background: transparent;
-  border: 2px solid #5ebab8;
-  color: #5ebab8;
-  transition: 0.1s all ease;
+  border: 2px solid #0067b8;
+  transition: 0.3s all ease;
+  box-shadow: inset 220px 0 0 #0067b8;
+  color: #fff;
 }

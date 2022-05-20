@@ -5,7 +5,7 @@
   }
   
   .blogs .box-container .box {
-    border: 1px solid var(--hamburger);
+    border: 1px solid var(--blue2);
   }
   
   .blogs .box-container .box .image {
@@ -35,7 +35,7 @@
   }
   
   .blogs .box-container .box .content .title:hover {
-    color: var(--green-logo);
+    color: var(--blue2);
   }
   
   .blogs .box-container .box .content span {

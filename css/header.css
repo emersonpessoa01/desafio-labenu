@@ -17,19 +17,38 @@
   /* width: 50vw;
   height: 15vh;
   object-fit: cover; */
-    height: 7rem;
+  height: 7rem;
 }
 
 .header .navbar a {
+  text-decoration: none;
   margin: 0 1rem;
   font-size: 1.8rem;
-  color: #fff;
+  color: white;
+  padding: 1.5rem;
+  transform: 2ms ease-in;
+  display: inline-block;
+}
+.header .navbar a:nth-child(1) {
+  color: var(--blue2);
+}
+.header .navbar a::after {
+  content: "";
+  display: block;
+  background: var(--blue2);
+  width: 0;
+  height: 2px;
+  border-radius: 4px;
+  margin: 6px auto 6px auto;
+  transition: all 0.3s ease;
+}
+.header .navbar a:hover:before,
+.header .navbar a:hover:after {
+  width: 100%;
 }
 
 .header .navbar a:hover {
-  color: var(--hamburger);
-  border-bottom: 0.1rem solid var(--hamburger);
-  padding-bottom: 0.5rem;
+  color: var(--blue2);
 }
 
 .header .icons div {
@@ -40,7 +59,7 @@
 }
 
 .header .icons div:hover {
-  color: var(--hamburger);
+  color: var(--blue2);
 }
 
 #menu-btn {

@@ -19,7 +19,7 @@
 }
 
 .footer .share a:hover {
-  background-color: var(--green-logo);
+  background-color: var(--blue2);
 }
 
 .footer .links {
@@ -38,7 +38,7 @@
 }
 
 .footer .links a:hover {
-  background: var(--green-logo);
+  background: var(--blue2);
 }
 
 .footer .credit {
