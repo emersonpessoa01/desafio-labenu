@@ -76,21 +76,23 @@ section {
 }
 /* COR DE TODOS OS LINKS */
 .btn {
-  margin-top: 1rem;
+  margin-top: 2.2rem;
   display: inline-block;
   padding: 0.9rem 3rem;
   font-size: 1.7rem;
-  color: #fff;
-  background-color: black;
-  cursor: pointer;
+  /* color: #fff; */
   border-radius: 7px;
   transition: box-shadow 1s ease;
-}
-.btn.blue{
+  
   background-color: transparent;
   color:var(--blue2);
   border: 2px solid var(--blue2);
 }
+/* .btn.blue{
+  background-color: transparent;
+  color:var(--blue2);
+  border: 2px solid var(--blue2);
+} */
 
 .btn:hover {
   background: transparent;
