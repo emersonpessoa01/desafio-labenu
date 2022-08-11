@@ -1,15 +1,11 @@
 # Desafio-labenu
----
-Este desafio consiste em criar uma landing page, de um site de moradias universitárias, chamando a atenção de estudantes.
+### Website Responsivo F4 Life
 
-<p align="center">Veja a página do projeto no link abaixo</p> 
+ <p>Site responsivo usando HTML, CSS e JavaScript. Possui uma logo de uma empresa fictícia. Tem uma interface de formulário com botão de envio o qual aplica autenticação de email e caixa de mensagem. Contém um cabeçalho com link de home, sobre, produtos e fale conosco. E por fim, apresenta no rodapé ícones para as redes sociais da empresa: Twitter, Facebook e Instagram</p>
 
-👇
- 
+## Pré-visualização:
+
 [Desafio-labenu](https://desafio-labenu-emerson.netlify.app/)
 
-**Desafios do projeto**<br>
-*Usar o flexbox para alinhar os elementos*
-
-
-
+<div align="center"><img src="assets/home.png" width=auto>
+</div> 
