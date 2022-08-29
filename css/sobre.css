@@ -5,6 +5,19 @@
     flex-wrap: wrap;
   }
   
+/* Revelar ao rolar */
+.about .reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: .7s all ease;
+}
+.about .reveal.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+/* FIM */
+
   .about .row .image {
     flex: 1 1 45rem;
   }
