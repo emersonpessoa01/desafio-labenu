@@ -5,7 +5,7 @@
 
 ## Pré-visualização:
 
-[Desafio-labenu](https://emersonpessoa01.github.io/desafio-labenu/)
+[Desafio-labenu](https://desafio-labenu.vercel.app/)
 
 <div align="center"><img src="assets/home.png" width=auto>
 </div> 
