@@ -68,3 +68,19 @@ function reveal(){
   })
 }
 window.addEventListener("scroll",reveal)
+
+
+//activate button scrolltop
+
+const scrollTop = document.querySelector(".scroll-top");
+
+window.onscroll = () => {
+  scrollTop.classList.toggle("active", window.scrollY > 0);
+};
+
+scrollTop.onclick = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};

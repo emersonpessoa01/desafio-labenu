@@ -1,4 +1,19 @@
 /* media queries  */
+
+
+
+@media (max-width: 1400px) {
+  /* .blogs .box-container {
+    grid-template-columns: repeat(4, 1fr);
+  } */
+}
+
+@media (max-width: 1200px) {
+  /* .blogs .box-container {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+}
+
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -54,6 +69,11 @@
     font-size: 1.5rem;
   }
 }
+@media (max-width: 640px) {
+  /* .blogs .box-container {
+    grid-template-columns: 1fr;
+  } */
+}
 
 @media (max-width: 450px) {
   html {
@@ -61,7 +81,7 @@
   }
   .header {
     padding: 1rem 6%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
   }
   .header .logo img {
