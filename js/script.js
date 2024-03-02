@@ -6,6 +6,13 @@ menu.onclick = () => {
   navbar.classList.toggle("active");
 };
 
+/* menu hamburger */
+let header = document.querySelector(".header");
+window.addEventListener("scroll", () => {
+  header.classList.toggle("shadow", window.scrollY > 0);
+  navbar.classList.remove("active")
+});
+
 const botao = document.querySelector("#botao");
 
 botao.addEventListener("click", (event) => {
