@@ -11,7 +11,7 @@ let header = document.querySelector(".header");
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
   navbar.classList.remove("active");
-  header.classList.remove("#menu-btn.fa-times");
+  menu.classList.remove("fa-times");
 });
 
 const botao = document.querySelector("#botao");
