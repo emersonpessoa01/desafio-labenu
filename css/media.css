@@ -10,7 +10,7 @@
 
 @media (max-width: 1200px) {
   .blogs .box-container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr) !important;
     grid-auto-flow: row;
     padding-block-start: 20px;
     padding-block-end: 20px;
