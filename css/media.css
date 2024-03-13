@@ -75,6 +75,7 @@
   .home .content p {
     font-size: 1.5rem;
   }
+
 }
 @media (max-width: 640px) {
   /* .blogs .box-container {
@@ -107,4 +108,14 @@
   .footer .credit {
     font-size: 1.2rem;
   }
+  /* .blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-auto-flow: row;
+    padding-block-start: 0px;
+    padding-block-end: 0px;
+    padding-inline-start: 0px;
+    padding-inline-end: 0px;
+ 
+  } */
 }
