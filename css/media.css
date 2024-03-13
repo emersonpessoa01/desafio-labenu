@@ -9,15 +9,16 @@
 }
 
 @media (max-width: 1200px) {
-  .blogs .box-container {
+  /*Para deixar apenas duas colunas a partir do tablet mesmo usando o grid-template-columns em auto-fit*/	
+  /*.blogs .box-container {
     grid-template-columns: repeat(2, 1fr) !important;
     grid-auto-flow: row;
     padding-block-start: 20px;
     padding-block-end: 20px;
     padding-inline-start: 20px;
     padding-inline-end: 20px;
-		gap:12px
-  } 
+    gap:12px
+  }*/
 }
 
 @media (max-width: 991px) {
