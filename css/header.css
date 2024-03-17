@@ -15,6 +15,10 @@
 .header.shadow{
   background-color: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
+  
+}
+.header .navbar a.changed{
+  color: var(--blue2) !important;
 }
 .header .logo img {
   /* width: 50vw;

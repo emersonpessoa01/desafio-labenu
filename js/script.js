@@ -1,5 +1,6 @@
 let menu = document.querySelector("#menu-btn");
 let navbar = document.querySelector(".navbar");
+let changed = document.querySelectorAll(".navbar > a.link");
 
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
@@ -14,6 +15,13 @@ window.addEventListener("scroll", () => {
   menu.classList.remove("fa-times");
 });
 
+/* Para mudar cor dos links no scroll */
+window.addEventListener("scroll", () => {
+  for (item of changed) {
+    item.classList.toggle("changed", window.scrollY > 0);
+  }
+});
+
 const botao = document.querySelector("#botao");
 
 botao.addEventListener("click", (event) => {
@@ -22,7 +30,6 @@ botao.addEventListener("click", (event) => {
   //define as variaveis dos inputs
   const userEmail = document.querySelector("#email");
   const mensagem = document.querySelector("#mensagem");
-  
 
   const [user] = userEmail.value.split("@");
 
@@ -59,24 +66,22 @@ botao.addEventListener("click", (event) => {
 });
 
 /* Revelar ao rolar */
-function reveal(){
+function reveal() {
   let reveals = document.querySelectorAll(".reveal");
 
-  reveals.forEach((reveal)=>{
+  reveals.forEach((reveal) => {
     let windowHeight = window.innerHeight;
     let elementTop = reveal.getBoundingClientRect().top;
     let elementVisible = 150;
 
     if (elementTop < windowHeight - elementVisible) {
       reveal.classList.add("active");
-    }else{
+    } else {
       reveal.classList.remove("active");
-
     }
-  })
+  });
 }
-window.addEventListener("scroll",reveal)
-
+window.addEventListener("scroll", reveal);
 
 //activate button scrolltop
 
