@@ -19,6 +19,7 @@ window.addEventListener("scroll", () => {
 window.addEventListener("scroll", () => {
   for (item of changed) {
     item.classList.toggle("changed", window.scrollY > 0);
+    menu.classList.toggle("color", window.scrollY > 0);
   }
 });
 

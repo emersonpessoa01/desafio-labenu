@@ -74,5 +74,7 @@
 #menu-btn {
   display: none;
 }
-
+#menu-btn.color{
+  color: var(--blue2);
+}
 /* FIM */
