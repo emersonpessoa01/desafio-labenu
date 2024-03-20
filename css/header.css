@@ -10,7 +10,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  box-shadow: 2px 2px 10px #fff, -2px -2px 10px #dadef0;
+  box-shadow: 2px 2px 10px #566d99, -2px -2px 10px #dadef0;
 }
 .header.shadow{
   background-color: rgba(255, 255, 255, 0.5);
