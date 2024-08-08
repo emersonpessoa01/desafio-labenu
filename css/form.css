@@ -13,12 +13,17 @@
 #mensagemInput {
   grid-column: 1;
 }
+.box-msg {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 #textoSucesso {
   font: 600 1.2rem "Roboto", sans-serif;
   color: rgb(64, 177, 41);
-  top: 80px;
-  position: relative;
+  /* top: 80px;
+  position: relative; */
 }
 
 /* .bordaErro {
@@ -38,15 +43,13 @@
   text-align: left;
   color: #fff;
   font-size: 1rem;
-
-
 }
 
 #spanSucesso {
   display: inline-block;
   position: absolute;
 }
-form #botao{
-  position:relative;
-  top:5px;
+form #botao {
+  /* position: relative;
+  top: 5px; */
 }
